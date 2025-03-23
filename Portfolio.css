@@ -1,0 +1,189 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #ff007f, #ff3399);
+    color: black;
+    text-align: center;
+    
+}
+
+/* Header */
+.header {
+    color: white;
+    padding: 50px 20px;
+    /* background-image: url("https://gael7.github.io/assets/images/background1.jpg"); */
+    /* background-image: url("https://pics.craiyon.com/2024-07-20/UKsvJ21RSXK167Uz16Khcw.webp"); */
+}
+
+.header h1 {
+    font-size: 36px;
+}
+
+.header p {
+    font-size: 18px;
+}
+.fa-brands, .fab {
+    font-weight: 400;
+    color: white;
+}
+
+/* Social Icons */
+.social-icons {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    color: white;
+}
+
+.social-icons a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+/* Main Container */
+.container {
+    
+    width: 80%;
+    margin: 40px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+}
+
+/* About Section */
+.about-section {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.about-section img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.about-section .content {
+    flex: 1;
+}
+
+/* Projects Section */
+.projects h2, .work h2, .education h2, .language h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Project List */
+.project-list {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.project-item {
+    flex: 1;
+    text-align: center;
+}
+
+.project-item img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+/* Work Experience */
+.work-experience {
+    padding: 20px;
+    border-radius: 8px;
+}
+
+/* Education Section */
+.education-list {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    gap: 20px;
+}
+
+.education-item {
+    flex: 1;
+}
+
+/* Year Styling */
+.year {
+    font-size: 14px;
+    color: gray;
+    margin-bottom: 5px;
+}
+
+/* Language Section */
+.language-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.language-item {
+    flex: 1;
+    text-align: center;
+}
+.language h2{
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+/* Contact Form */
+.contact h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    background: #f3f3f3;
+    border-radius: 5px;
+}
+
+textarea {
+    height: 100px;
+}
+
+button {
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff3399;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #e60073;
+}
+
